@@ -66,13 +66,15 @@ if (isset($_GET['status'])) {
         .form-row {
             margin-bottom: 1rem;
         }
+        
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="path_to_logo.png" alt="Logo"> <!-- Replace with your logo path -->
+        <img src="images/logoipsum-325.svg" alt="Logo" style="max-height: 50px;
+            max-width:150px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -173,7 +175,7 @@ if (isset($_GET['status'])) {
             <button type="submit" class="btn btn-primary">Add Stock</button>
         </form>
     </div>
-
+   
     <!-- Include jQuery and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
